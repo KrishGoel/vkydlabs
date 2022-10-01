@@ -87,9 +87,9 @@ p, ul, li {
 /* Palette */
 :root {
 	--light-grey: #cfcfcf;
-	--text-light-grey: rgb(116, 116, 116);
+	--text-light-grey: #747474;
 	--grey: #4a4a4a;
-	--dark-grey: #2b2b2b;
+	--dark-grey: #151515;
 }
 body, a {
 	color: var(--grey)
