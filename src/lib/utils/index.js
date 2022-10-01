@@ -6,10 +6,14 @@ export const fetchMarkdownPosts = async () => {
 		iterablePostFiles.map(async ([path, resolver]) => {
 			const { metadata } = await resolver()
 			const postPath = path.replace(".md", "").replace("/posts", "").replace("/src/routes/", "")
+			
+			const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+			const published = monthNames[new Date(metadata.date).getMonth()] + " " + new Date(metadata.date).getDate() // Get "January 10 from "
 
 			return {
 				meta: metadata,
 				path: postPath,
+				published: published
 			}
 		})
 	)

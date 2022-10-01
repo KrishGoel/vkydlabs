@@ -32,8 +32,8 @@
 	<div class="slim-container">
 		<p>&copy; VKYD Labs</p>
 		<div class="links">
-			<a href="" style="margin-right: 5px">Instagram</a>
-			<a href="">-v1.0</a>
+			<a href="https://instagram.com/vkydlabs" rel="external" target="_blank" aria-label="Instagram Handle of VKYD Labs" style="margin-right: 5px">Instagram</a>
+			<a href="https://github.com/KrishGoel/vkydlabs" rel="external" target="_blank" aria-label="This website's code, written in SvelteKit" >-v1.0</a>
 		</div>
 	</div>
 	<div class="block-gradient">
