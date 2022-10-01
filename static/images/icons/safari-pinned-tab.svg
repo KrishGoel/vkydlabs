@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="810pt" height="810pt" viewBox="0 0 810 810">
+<g enable-background="new">
+<clipPath id="cp0">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M 0 0 L 3375 0 L 3375 3406.25 L 0 3406.25 Z " fill-rule="evenodd"/>
+</clipPath>
+<g clip-path="url(#cp0)">
+<path transform="matrix(.75,0,0,.75,0,0)" d="M 0 0 L 1080 0 L 1080 1090 L 0 1090 Z " fill="#ffffff"/>
+</g>
+<clipPath id="cp1">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M 0 0 L 3375 0 L 3375 3375 L 0 3375 Z " fill-rule="evenodd"/>
+</clipPath>
+<g clip-path="url(#cp1)">
+<path transform="matrix(.75,0,0,.75,0,0)" d="M 0 0 L 1080 0 L 1080 1080 L 0 1080 Z " fill="#ffffff"/>
+</g>
+<clipPath id="cp2">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M 0 0 L 3375 0 L 3375 3375 L 0 3375 Z " fill-rule="evenodd"/>
+</clipPath>
+<g clip-path="url(#cp2)">
+<path transform="matrix(.75,0,0,.75,0,0)" d="M 0 0 L 1080 0 L 1080 1080 L 0 1080 Z " fill="#cfcfcf"/>
+</g>
+<clipPath id="cp3">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M 0 0 L 3375 0 L 3375 3375 L 0 3375 Z " fill-rule="evenodd"/>
+</clipPath>
+<g clip-path="url(#cp3)">
+<g id="Layer-1" data-name="P">
+</g>
+<text fill="#2b2b2b" xml:space="preserve" transform="matrix(.75 0 0 .75 130.0742 216)" font-size="252.28" font-family="PlayfairDisplay" font-weight="bold" font-style="italic"><tspan y="231" x=".015625 166.76325 353.43986 538.6029">VKYD</tspan></text>
+<g id="Layer-1" data-name="P">
+</g>
+<text fill="#2b2b2b" xml:space="preserve" transform="matrix(.75 0 0 .75 130.0742 216)" font-size="252.28" font-family="PlayfairDisplay" font-weight="bold" font-style="italic"><tspan y="483" x="97.90625 250.527 391.29127 529.2806">Labs</tspan></text>
+</g>
+</g>
+</svg>
