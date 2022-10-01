@@ -7,4 +7,10 @@ tags:
 - Svelte
 ---
 
+<script>
+	import Katex from 'svelte-katex'
+</script>
+
 ## Woah
+
+<Katex>ax^2+bx+c=0</Katex>

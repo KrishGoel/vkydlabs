@@ -28,6 +28,9 @@ p {
 	margin-bottom: 8px;
 	line-height: 170%;
 }
+button {
+	margin-bottom: 10px;
+}
 
 /* Fonts */
 /* Playfair Display */
@@ -64,7 +67,7 @@ p {
 	font-weight: 700;
 	src: url(../fonts/Akkurat-Bold.woff2);
 }
-body {
+body,button {
 	font-family: "Akkurat";
 }
 h1, h2 {
@@ -137,7 +140,23 @@ hr {
 	height: 1px;
 	border: none
 }
-
+button {
+	padding: 7px 20px 6px 20px;
+	font-size: 15px;
+	/* font-weight: 700; */
+	background-color: #ffffff00;
+	border: 2px solid var(--grey);
+	color: var(--dark-grey);
+	border-radius: 5px;
+	transition: 0.2s;
+	display: inline-block;
+	margin-right: 7px;
+}
+button:hover {
+	background-color: var(--dark-grey);
+	color: var(--light-grey);
+	border-color: var(--dark-grey);
+}
 /* Post Styling */
 .post {
 	border-left: 5px solid var(--light-grey);

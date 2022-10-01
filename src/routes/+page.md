@@ -24,6 +24,9 @@
 
 We're a cool organisation currently venturing into quantitative bot trading. Algorithmic Trading is difficult, and even more so if you are trying to generate real and consistent profits. In this course you will learn everything you need to know to start developing and launching automated trading strategies, while making use of free and [open source]() tools that will not only facilitate your development but also save you a lot of time and money.
 
+<a href="/about"><button>Shoot a mail ></button></a>
+<a href="/about"><button>Shoot a mail ></button></a>
+
 This is the second paragraph. In this course you will learn everything you need to know to start developing and launching automated trading strategies, while making use of free and [open source]() tools that will not only facilitate your development but also save you a lot of time and money.
 
 ### This is a 3rd degree heading
