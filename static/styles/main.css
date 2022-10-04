@@ -103,7 +103,7 @@ p a, li a, h3 a {
 }
 p a:hover, li a:hover, h3 a:hover {
 	color: #ffffff;
-	box-shadow: inset 0 -20px 0 var(--dark-grey)
+	box-shadow: inset 0 -30px 0 var(--dark-grey)
 }
 
 /* Misc */
@@ -157,11 +157,15 @@ button:hover {
 	color: var(--light-grey);
 	border-color: var(--dark-grey);
 }
-/* Post Styling */
+/* Post (card) Styling */
 .post {
 	border-left: 5px solid var(--light-grey);
 	padding-left: 20px;
 	margin-bottom: 10px;
+}
+.post h3 a {
+	padding-bottom: 2px;
+	padding-top: 3px;
 }
 
 /* Tags styling */
