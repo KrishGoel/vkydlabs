@@ -1,15 +1,13 @@
 <header>
 	<div class="block-gradient">
-		<!-- <div class="block" style="background-color: #9a9a9a"/> -->
-		<div class="block" style="background-color: #bababa" />
-		<!-- <div class="block" style="background-color: #dedede"/> -->
+		<div class="block" style="background-color: var(--light-grey)" />
 	</div>
 	<nav>
 		<div class="slim-container">
 			<h1 style="font-style: italic"><a href="/">VKYD Labs</a></h1>
 			<div class="links">
 				<a href="/about" style="margin-right: 5px">About</a>
-				<a href="/blog">Blog</a>
+				<a href="/notes">Notes</a>
 			</div>
 		</div>
 	</nav>
@@ -38,7 +36,7 @@
 		</div>
 	</div>
 	<div class="block-gradient">
-		<div class="block" style="background-color: #bababa" />
+		<div class="block" style="background-color: var(--light-grey)" />
 	</div>
 </footer>
 

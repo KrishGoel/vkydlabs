@@ -1,14 +1,9 @@
 <script>
-	// import { invalidate } from "$app/navigation";
-	// invalidate(data)
-
 	export let data;
-
-
-	console.log(JSON.stringify(data))
+	// console.log(JSON.stringify(data))
 </script>
 
-<h1>Blog</h1>
+<h1>Notes</h1>
 
 <h2>2022</h2>
 
@@ -17,7 +12,7 @@
 		<h3><a href={post.path}>{post.meta.title}</a></h3>
 		<p>{post.meta.description}</p>
 		<p style="font-size: 13px">{post.published}</p>
-		<div class="row tags">
+		<div class="tags">
 			{#each post.meta.tags as tag}
 				<p class="tag">{tag}</p>
 			{/each}

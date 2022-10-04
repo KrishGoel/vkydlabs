@@ -3,7 +3,7 @@
 
 	let title = data.title + " | VKYD Labs"
 	let description= data.description
-	let url = "https://vkydlabs.com/blog/" + data.url
+	let url = "https://vkydlabs.com/notes/" + data.url
 </script>
 
 <svelte:head>

@@ -37,7 +37,7 @@ This is the second paragraph. In this course you will learn everything you need 
 
 <hr/>
 
-# Blog
+# Notes
 
 ## 2022
 
@@ -46,7 +46,7 @@ This is the second paragraph. In this course you will learn everything you need 
 		<h3><a href={post.path}>{post.meta.title}</a></h3>
 		<p>{post.meta.description}</p>
 		<p style="font-size: 13px">{post.published}</p>
-		<div class="row tags">
+		<div class="tags">
 			{#each post.meta.tags as tag}
 				<p class="tag">{tag}</p>
 			{/each}
