@@ -1,5 +1,10 @@
 <script>
+	import { invalidate } from "$app/navigation";
+
+
 	export let data;
+
+	invalidate(data)
 
 	console.log(JSON.stringify(data))
 </script>
