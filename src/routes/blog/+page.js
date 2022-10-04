@@ -1,3 +1,5 @@
+export const prerender = true;
+
 export const load = async ({ fetch }) => {
 	try {
 		const response = await fetch(`/api/posts`)
