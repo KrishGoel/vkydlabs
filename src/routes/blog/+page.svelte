@@ -1,5 +1,7 @@
 <script>
 	export let data;
+
+	console.log(JSON.stringify(data))
 </script>
 
 <h1>Blog</h1>
