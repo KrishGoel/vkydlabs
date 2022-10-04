@@ -1,8 +1,4 @@
 <script>
-	import { invalidateAll } from "$app/navigation";
-
-
-	invalidateAll
 	export let data;
 
 	console.log(JSON.stringify(data))
