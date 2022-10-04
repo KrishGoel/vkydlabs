@@ -14,3 +14,23 @@
 	```html 
 	<Katex>ax^2+bx+c=0</Katex>
 	```
+- Template structure for a post ```src/notes/posts/*.md```
+	```md
+	---
+	title: Post Title
+	description: Principles by Ray Dalio is a fantastic read on investing, work and life principles
+	date: 2021-12-18
+	tags:
+	- Book Summary
+	- Investing Principles
+	---
+
+	[Content goes here]
+
+	[Katex usage sample]
+	<script>
+		import Katex from 'svelte-katex'
+	</script>
+	<Katex>ax^2+bx+c=0</Katex>
+
+	```
