@@ -1,3 +1,21 @@
+<script>
+	let title= "Error | VKYD Labs";
+	let description = "VKYD Labs Description";
+	let url = "https://vkydlabs.com/";
+</script>
+
+<svelte:head>
+    <title>{title}</title>
+    <meta name="title" content="{title}" />
+    <meta name="description" content="{description}" />
+    <meta property="og:title" content="{title}" />
+    <meta property="og:url" content="{url}" />
+    <meta property="og:description" content="{description}" />
+    <meta name="twitter:title" content="{title}" />
+    <meta name="twitter:url" content="{url}" />
+    <meta name="twitter:description" content="{description}" />
+</svelte:head>
+
 # You've reached a dead end.
 
 Often referred to as /404 by Programmers (and emo-bois who feel internally-validated and think they sound very cool after captioning their sad sack of shit posts "Error 404: Feelings not found").
