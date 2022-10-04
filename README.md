@@ -14,6 +14,13 @@
 	```html 
 	<Katex>ax^2+bx+c=0</Katex>
 	```
+- Guide for adding a captioned image 
+	```html
+	<figure>
+		<img src="https://images.unsplash.com/photo-1549740425-5e9ed4d8cd34?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwzOTU0NTB8fGVufDB8fHw%3D&w=1000&q=80" alt="Trulli">
+		<figcaption>Fig.1 - 4K Mountains Wallpaper</figcaption>
+	</figure>
+	```
 - Template structure for a post ```src/notes/posts/*.md```
 	```md
 	---
