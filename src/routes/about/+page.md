@@ -16,7 +16,7 @@
     <meta name="twitter:description" content="{description}" />
 </svelte:head>
 
-<!-- ## If you have somehow found this page, consider not reading because it's nothing more than a braindump right now. -->
+## If you have somehow found this page, consider not reading because it's nothing more than a braindump right now.
 
 # An Introduction
 
