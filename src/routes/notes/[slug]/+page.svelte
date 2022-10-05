@@ -31,7 +31,7 @@
 	<h1>{data.title}</h1>
 	<p>{data.description}</p>
 	<p style="color: var(--text-light-grey)">{data.published}</p>
-	<div class="row tags">
+	<div class="tags">
 		{#each data.tags as tag}
 			<p class="tag">{tag}</p>
 		{/each}

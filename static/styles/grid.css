@@ -1,0 +1,77 @@
+/* Responsve screen breakpoints */
+/* Small: 0px - 600px */
+/* Medium: 601px - 800px */
+/* Large: 801px - ∞ *
+
+/* Columns */
+.row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.col-2 {
+    grid-column: span 6;
+}
+.col-3 {
+	grid-column: span 4;
+}
+.col-4 {
+	grid-column: span 3;
+}
+
+.col-2 .card, .col-3 .card, .col-4 .card {
+	width: 95%;
+}
+
+/* Responsive column and width-restriction sizing */
+@media screen and (max-width:800px) {
+    .col-3 {
+        grid-column: span 6;
+    }
+    .col-4, .col-2 {
+        grid-column: span 12;
+    }
+    .col-4 .width-restriction, .col-2 .width-restriction {
+        width: 100%
+    }
+    .card .width-restriction {
+        width: var(--width-restriction)
+    }
+    .col-4 .card, .col-2 .card {
+        width: 100%
+    }
+}
+@media screen and (max-width: 600px) {
+    .col-3 {
+        grid-column: span 12;
+    }
+    .col-3 .width-restriction {
+        width: 100%;
+    }
+    .card .width-restriction {
+        width: var(--width-restriction);
+    }
+    .col-3 .card {
+        width: 100%
+    }
+}
+
+.mobile-view, .tablet-view, .large-view {
+    display: none
+}
+@media screen and (max-width: 450px) {
+    .mobile-view {
+        display: block;
+    }
+}
+@media screen and (min-width: 451px) and (max-width: 850px) {
+    .tablet-view {
+        display: block;
+    }
+}
+@media screen and (min-width: 851px) {
+    .large-view {
+        display: block;
+    }
+}

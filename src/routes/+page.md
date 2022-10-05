@@ -1,6 +1,6 @@
 <script>
 	let title= "VKYD Labs";
-	let description = "VKYD Labs Description";
+	let description = "Notes on building a principled algorithmic trading bot.";
 	let url = "https://vkydlabs.com/";
 
 	export let data;
@@ -18,22 +18,11 @@
     <meta name="twitter:description" content="{description}" />
 </svelte:head>
 
-# Welcome to _VKYD Labs_
-
-## Testing with a h2
-
-We're a cool organisation currently venturing into quantitative bot trading. Algorithmic Trading is difficult, and even more so if you are trying to generate real and consistent profits. In this course you will learn everything you need to know to start developing and launching automated trading strategies, while making use of free and [open source]() tools that will not only facilitate your development but also save you a lot of time and money.
+# We* are an Experiment
 
 <a href="mailto:vkydlabs@gmail.com" aria-label="Mail to VKYD Labs"><button>Shoot a mail ></button></a>
 
-This is the second paragraph. In this course you will learn everything you need to know to start developing and launching automated trading strategies, while making use of free and [open source]() tools that will not only facilitate your development but also save you a lot of time and money.
-
-### This is a 3rd degree heading
-
-We're a cool organisation currently venturing into quantitative bot trading. Algorithmic Trading is difficult, and even more so if you are trying to generate real and consistent profits. In this course you will learn everything you need to know to start developing and launching automated trading strategies, while making use of free and [open source]() tools that will not only facilitate your development but also save you a lot of time and money.
-
-This is the second paragraph. In this course you will learn everything you need to know to start developing and launching automated trading strategies, while making use of free and [open source]() tools that will not only facilitate your development but also save you a lot of time and money.
-
+<figcaption>*We, here, refers to the team of shared-ideology I aim to build with VKYD, and is in no way indicative of our team's cardinality (which currently stands strong at 1)</figcaption>
 
 <hr/>
 

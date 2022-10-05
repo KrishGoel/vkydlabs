@@ -74,7 +74,6 @@
 		box-shadow: inset 0 -20px 0 #3a3a3a;
 	}
 	footer {
-		background-color: #ffffff;
 		white-space: nowrap;
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
