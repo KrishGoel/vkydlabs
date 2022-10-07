@@ -20,25 +20,30 @@
 
 # We* are an Experiment
 
+
+
 <a href="mailto:vkydlabs@gmail.com" aria-label="Mail to VKYD Labs"><button>Shoot a mail ></button></a>
 
 <figcaption>*We, here, refers to the team of shared-ideology I aim to build with VKYD, and is in no way indicative of our team's cardinality (which currently stands strong at 1)</figcaption>
 
-<hr/>
+<!-- <hr/>
 
 # Notes
 
-## 2022
-
-{#each data.posts as post}
-	<div class="post">
-		<h3><a href={post.path}>{post.meta.title}</a></h3>
-		<p>{post.meta.description}</p>
-		<p style="font-size: 13px">{post.published}</p>
-		<div class="tags">
-			{#each post.meta.tags as tag}
-				<p class="tag">{tag}</p>
-			{/each}
+{#if data.posts.length != 0}
+	## 2022
+	{#each data.posts as post}
+		<div class="post">
+			<h3><a href={post.path}>{post.meta.title}</a></h3>
+			<p>{post.meta.description}</p>
+			<p style="font-size: 13px">{post.published}</p>
+			<div class="tags">
+				{#each post.meta.tags as tag}
+					<p class="tag">{tag}</p>
+				{/each}
+			</div>
 		</div>
-	</div>
-{/each}
+	{/each}
+{:else}
+	<figcaption>Expect notes over here</figcaption>
+{/if} -->
