@@ -6,8 +6,8 @@
 		<div class="slim-container">
 			<h1 style="font-style: italic"><a href="/">VKYD Labs</a></h1>
 			<div class="links">
-				<a href="/about" style="margin-right: 5px">About</a>
-				<a href="/notes">Notes</a>
+				<a href="/notes" style="margin-right: 5px">Notes</a>
+				<a href="/about">About</a>
 			</div>
 		</div>
 	</nav>
@@ -30,9 +30,9 @@
 	<div class="slim-container">
 		<p>&copy; VKYD Labs</p>
 		<div class="links">
-			<a href="https://instagram.com/vkydlabs" rel="external" target="_blank" aria-label="Instagram Handle of VKYD Labs" style="margin-right: 5px">Instagram</a>
+			<a href="https://instagram.com/vkydlabs" rel="external" target="_blank" aria-label="VKYD Labs Instagram Handle" style="margin-right: 5px">Instagram</a>
 			<a href="https://twitter.com/VKYDlabs" rel="external" target="_blank" aria-label="VKYD Labs Twitter Handle"  style="margin-right: 5px">Twitter</a>
-			<a href="https://github.com/KrishGoel/vkydlabs" rel="external" target="_blank" aria-label="This website's code, written in SvelteKit" >-v1.0</a>
+			<a href="https://github.com/KrishGoel/vkydlabs" rel="external" target="_blank" aria-label="This website's code, written in SvelteKit" >Webapp</a>
 		</div>
 	</div>
 	<div class="block-gradient">

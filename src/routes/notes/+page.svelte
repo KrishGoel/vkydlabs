@@ -1,7 +1,22 @@
 <script>
-	export let data;
-	// console.log(JSON.stringify(data))
+	let title= "Notes | VKYD Labs"
+	let description = "Notes on automating investing and trading through math and principles.";
+	let url = "https://vkydlabs.com/notes"
+
+	export let data
 </script>
+
+<svelte:head>
+    <title>{title}</title>
+    <meta name="title" content="{title}" />
+    <meta name="description" content="{description}" />
+    <meta property="og:title" content="{title}" />
+    <meta property="og:url" content="{url}" />
+    <meta property="og:description" content="{description}" />
+    <meta name="twitter:title" content="{title}" />
+    <meta name="twitter:url" content="{url}" />
+    <meta name="twitter:description" content="{description}" />
+</svelte:head>
 
 <h1>Notes</h1>
 
@@ -21,5 +36,6 @@
 		</div>
 	{/each}
 {:else}
-		<figcaption>Expect notes over here</figcaption>
+		Expect notes over here
+		<div style="height: 40vh"></div>
 {/if}

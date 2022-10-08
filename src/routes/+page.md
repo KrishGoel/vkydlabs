@@ -1,6 +1,6 @@
 <script>
 	let title= "VKYD Labs";
-	let description = "Notes on building a principled algorithmic trading bot.";
+	let description = "Notes on automating investing and trading through math and principles.";
 	let url = "https://vkydlabs.com/";
 
 	export let data;
@@ -19,14 +19,19 @@
 </svelte:head>
 
 # We* are an Experiment
+### Pragmatic resolution to investing v/s trading
 
+VKYD Labs is an experimental venture in the financial trading space. We're working on building 2 algorithmic trading bots - each to mimic a principled value-investor and a principled-trader. You may expect progress updates, revisions and notes from learnings along the way on this webpage.
 
+To learn more the Eureka! Moment, or about us in general, check out [/about](/about).
 
-<a href="mailto:vkydlabs@gmail.com" aria-label="Mail to VKYD Labs"><button>Shoot a mail ></button></a>
+If you're interested in joining the team, please <a href="mailto:vkydlabs@gmail.com" rel="external" target="_blank" aria-label="Mail to VKYD Labs">shoot us an email</a> and we'll get back to you asap.
+
+<!-- <a href="mailto:vkydlabs@gmail.com" aria-label="Mail to VKYD Labs"><button>Shoot a mail ></button></a> -->
 
 <figcaption>*We, here, refers to the team of shared-ideology I aim to build with VKYD, and is in no way indicative of our team's cardinality (which currently stands strong at 1)</figcaption>
 
-<!-- <hr/>
+<hr/>
 
 # Notes
 
@@ -45,5 +50,5 @@
 		</div>
 	{/each}
 {:else}
-	<figcaption>Expect notes over here</figcaption>
-{/if} -->
+	Expect notes over here
+{/if}
