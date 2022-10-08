@@ -61,7 +61,7 @@ This seems like a false reality because if it were so, quantitative bots would b
 
 But again, there is no clear indication of failure.
 
-### 1<sup>st</sup> Order Conclusions
+### 1<sup>st</sup> Order Conclusion
 
 From a 3<sup>rd</sup> person perspective, there is no explicit winner in both approaches to investing - large investors may be too lazy to trade, or traders may be too stupid and score just enough wins to stay afloat. 
 <figcaption>But both make money and that's fun ;)</figcaption>

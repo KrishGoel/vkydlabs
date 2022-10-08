@@ -21,7 +21,7 @@
 # We* are an Experiment
 ### Pragmatic resolution to investing v/s trading
 
-VKYD Labs is an experimental venture in the financial trading space. We're working on building 2 algorithmic trading bots - each to mimic a principled value investor and a principled trader. You may expect progress updates, revisions, and notes from learnings along the way on this webpage.
+VKYD Labs is an experimental venture in the financial trading space. We're working on building 2 algorithmic trading bots - to mimic a principled value investor and a principled trader. You may expect progress updates, revisions, and notes from learnings along the way on this webpage.
 
 To learn more about the _Eureka!_ Moment, or about us in general, check out [/about](/about).
 
